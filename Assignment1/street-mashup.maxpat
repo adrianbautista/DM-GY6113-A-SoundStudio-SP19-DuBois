@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -275.0, -1002.0, 892.0, 968.0 ],
+		"rect" : [ 34.0, 78.0, 1212.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -390,14 +390,14 @@
 					"patching_rect" : [ 677.75, 429.333343505859375, 54.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "flonum",
 							"parameter_type" : 3,
 							"parameter_mmin" : 10.0,
 							"parameter_longname" : "flonum",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 10000.0,
-							"parameter_initial" : [ 440 ]
+							"parameter_initial" : [ 440 ],
+							"parameter_shortname" : "flonum"
 						}
 
 					}
