@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 382.0, 94.0, 864.0, 506.0 ],
+		"rect" : [ 468.0, -780.0, 864.0, 506.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "newtemplate",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 363.0, 191.0, 51.0, 29.0 ],
+					"text" : "close"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
@@ -186,7 +198,7 @@
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 443.0, 210.0, 80.0, 60.0 ]
 				}
 
@@ -353,6 +365,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -550,7 +569,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "mydrunkobject.maxpat",
-				"bootpath" : "~/Documents/TEACHING/nyu/idm/soundstudio/DM-GY6113-A-SoundStudio-SP19-DuBois/Class8",
+				"bootpath" : "~/Personal/ITP/sound-studio/DM-GY6113-A-SoundStudio-SP19-DuBois/Class8",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
